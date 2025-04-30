@@ -54,7 +54,8 @@ The proposed application is inspired by Skype and includes:
 
 Preliminary UI mockups were designed for:
 - Home screen with contact list and groups.
-  
+  ![First Design](./Mock-Ups/Mockup1.png)
+
 - Chat window.
 - Group management interface.
 
