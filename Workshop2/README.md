@@ -1,6 +1,6 @@
 # 1. Conceptual Design Updates
 
-This is a detailed description of the changes and updates that were made to the document. Since we're working on the README in the repository, the changes are reflected there.
+This is a description of the changes and updates that were made to the document. Since we're working on the README in the repository, the changes are reflected there.
 
 ## Objectives
 
