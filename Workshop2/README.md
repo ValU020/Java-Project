@@ -94,4 +94,4 @@ The subclasses are:
 
 Here you can find the UML diagram
 
-![UML Diagram]()
+![UML Diagram](https://github.com/ValU020/Java-Project/blob/main/Workshop2/UML.png)
