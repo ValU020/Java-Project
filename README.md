@@ -1,6 +1,6 @@
 # SKYPE
 
-Este es proyecto que surge como una versión a pequeña excala de la aplicación skype, basandose en la misma para su diseño y funcionalidades con base en un sistema orientado a objetos
+This is a project that emerges as a small-scale version of the Skype application, based on the same for its design and functionality based on an object-oriented system.
 
 ## Objectives
 
@@ -22,20 +22,20 @@ The proposed application is inspired by Skype and includes:
 
 ### Functional Requirements:
 
-- Registrar e iniciar sesión con email y contraseña.
-- Enviar y recibir mensajes de forma privada a otros usuarios.
-- Hacer llamadas de video o de voz.
-- Crear y/o eliminar grupos.
-- Personalizar la cuenta (foto, nombre, estado).
-- Cerrar sesión de forma segura.
-- Eliminar una cuenta de forma permanente.
+- Register and log in with email and password.
+- Send and receive private messages to other users.
+- Make video or voice calls.
+- Create and/or delete groups.
+- Personalize your account (photo, name, status).
+- Log out securely.
+- Permanently delete an account.
 
 ### Non-Functional Requirements:
 
-- Los datos del usuario y sus comunicaciones deben estar protegidos
-- El sistema evita que se repitan usuarios y correos electrónicos al crear una cuenta.
-- Los cambios en la cuenta deben ser guardados y aplicados instantaneamente.
-- Varios usuarios pueden usar la plataforma sin que esta colapse.
+- User data and communications must be protected.
+- The system prevents duplicate usernames and email addresses when creating an account.
+- Account changes must be saved and applied instantly.
+- Multiple users can use the platform without causing it to crash.
 
 ## 2. User Stories
 
