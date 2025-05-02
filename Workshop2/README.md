@@ -90,8 +90,3 @@ The subclasses are:
    **3.1 Call History**
    -**Responsibilities:**
    -**Colaborators:**
-
-# 2. Code summary
-
-since my partner have to make the code, he is in charge of doing the code summary
-  
