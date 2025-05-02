@@ -90,3 +90,7 @@ The subclasses are:
    **3.1 Call History**
    -**Responsibilities:**
    -**Colaborators:**
+# Technical Design
+
+Here you can find the UML diagram
+
