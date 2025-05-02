@@ -94,3 +94,4 @@ The subclasses are:
 
 Here you can find the UML diagram
 
+![UML Diagram]()
