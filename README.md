@@ -84,9 +84,3 @@ Each main class is represented with:
 - **Responsibilities:** Manage a conversation between two or more users, store a list of messages, display messages in order,  keep a log of past calls, display past conversartions.
 - **Collaborators** User, message.
 
-
-
-## 📁 Repository Structure
-## Observations
-My partner, Kevin Navarrete didn´t contribute at all in the construction of this project other than the Mock-Ups; if kevin do something, delete this sentence.\
-Pd: Fuck you kevin :) <3
