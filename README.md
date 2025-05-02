@@ -63,24 +63,23 @@ Mockups are provided as simple sketches and justify basic layout choices to supp
 
 ## 4. CRC Cards
 
-Each main class is represented with:
-**1. User**
+Now, the main class is:
+**User**
 - **Responsibilities:** Register an log in, edit profile, add and remove contacts.
 - **Collaborators:** Contact list, message, calls.
 
-**2. Contact**
+The subclasses are:
+**1. Contact**
 - **Responsibilities:** Represent another user the contact list, display contact name and status.
 - **Collaborators:** User.
-
-**3. Message**
-- **Responsibilities:** Store message content, record timestamp, know the sender and receiver
-- **Collaborators:** User.
   
-**4. Call**
+**2. Call**
 - **Responsibilities:** Start a call between two or more users, tract duration and participants, end the call.
 - **Collaborators:** User, call history.
   
-**5. Chat**
+**3. Chat**
 - **Responsibilities:** Manage a conversation between two or more users, store a list of messages, display messages in order,  keep a log of past calls, display past conversartions.
 - **Collaborators** User, message.
 
+## UML Diagram
+![UML Diagram](https://github.com/ValU020/Java-Project/blob/main/Workshop2/UML.png))
