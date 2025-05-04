@@ -4,7 +4,7 @@ This is a description of the changes and updates that were made to the document.
 
 ## Objectives
 
-- Make an app where the users can send and receive messages, make voice and video calls.
+- Make an app where the users can send and receive messages and make voice calls.
 - Implement a system or an authenticator where every user can have a personal account.
 - Design a website that is intuitive and easy to use for everyone, with essential functionalities and a seamless user experience that enhances accessibility, responsiveness, and user engagement.
 
@@ -12,9 +12,10 @@ Being primarily a messaging application, the main objectives are precisely to ad
 
 ## Application Overview
 
+Be able to do calls is a prioritary task, but due to time the project will only have voice calls.
 The proposed application is inspired by Skype and includes:
 - User registration with email.
-- Messaging and voice/video calls.
+- Messaging and voice calls.
 - Public and private group creation and management.
 - Contact handling and user profile customization.
 - Account control (temporary suspension, deletion).
@@ -26,14 +27,14 @@ The proposed application is inspired by Skype and includes:
 
 - Register and log in with email and password.
 - Send and receive private messages to other users.
-- Make video or voice calls.
+- Make voice calls.
+- Log out securely.
+- Permanently delete an account.
 - Create and/or delete groups.
 - Personalize your account (photo, name, status).
 - Delete messages, call history and full chats.
-- Log out securely.
-- Permanently delete an account.
 
-We decide to add an option to delete chats or messages.
+We decide to add an option to delete chats or messages, and a call history as a low priority requirements.
 
 ### Non-Functional Requirements:
 
