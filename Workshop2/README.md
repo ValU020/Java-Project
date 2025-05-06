@@ -68,7 +68,7 @@ The first Mock-Ups designed are:
 
 
 ## CRC Cards
-Initially, each of the following classes was considered a parent class. Upon reviewing the document, it was decided that there would be a parent class from which the others would be derived and removing classes like message, as these could hinder the code.
+Initially, each of the following classes was considered a mother class. Upon reviewing the document, it was decided that there would be a mother class from which the others would be derived and removing classes like message, as these could hinder the code.
 
 Now, the main class is:
 **User**
