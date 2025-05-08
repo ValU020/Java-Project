@@ -63,12 +63,13 @@ Mockups are provided as simple sketches and justify basic layout choices to supp
 
 ## 4. CRC Cards
 
-Now, the main class is:
+The main class is:
 **User**
 - **Responsibilities:** Register an log in, edit profile, add and remove contacts.
 - **Collaborators:** Contact list, message, calls.
 
 The subclasses are:
+
 **1. Contact**
 - **Responsibilities:** Represent another user the contact list, display contact name and status.
 - **Collaborators:** User.
