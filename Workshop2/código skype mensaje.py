@@ -1,6 +1,4 @@
 
-# Example using encapsulation and polymorphism in Python
-
 class User:
     def __init__(self, username):
         self.__username = username
