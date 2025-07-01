@@ -1,86 +1,108 @@
 # SKYPE
 
-This is a project that emerges as a small-scale version of the Skype application, based on the same for its design and functionality based on an object-oriented system.
+Este proyecto surge como una versión a pequeña escala de la aplicación Skype, basada en ella tanto en diseño como en funcionalidad, utilizando un sistema orientado a objetos.
 
-## Objectives
+---
 
-- Make an app where the users can send and receive messages, make voice and video calls and share activities with their partners.
-- Implement a system or an authenticator where every user can have a personal account.
-- Design a website that is intuitive and easy to use for everyone, with essential functionalities and a seamless user experience that enhances accessibility, responsiveness, and user engagement
+## 🎯 Objetivos
 
-## Application Overview
+- Crear una app donde los usuarios puedan enviar y recibir mensajes, realizar llamadas de voz y video, y compartir actividades con sus contactos.
+- Implementar un sistema de autenticación para que cada usuario tenga una cuenta personal.
+- Diseñar una web intuitiva y fácil de usar, con funcionalidades esenciales y una experiencia de usuario fluida, que mejore accesibilidad, responsividad y engagement.
 
-The proposed application is inspired by Skype and includes:
-- User registration with email.
-- Messaging and voice/video calls.
-- Public and private group creation and management.
-- Contact handling and user profile customization.
-- Account control (temporary suspension, deletion).
-- Invitation system for friends and groups.
+---
 
-## 1. Requirements
+## 📋 Visión General de la Aplicación
 
-### Functional Requirements:
+La aplicación propuesta, inspirada en Skype, incluye:
 
-- Register and log in with email and password.
-- Send and receive private messages to other users.
-- Make video or voice calls.
-- Create and/or delete groups.
-- Personalize your account (photo, name, status).
-- Log out securely.
-- Permanently delete an account.
+- Registro de usuarios mediante correo electrónico.
+- Mensajería y llamadas de voz/video.
+- Creación y gestión de grupos públicos y privados.
+- Manejo de contactos y personalización de perfiles.
+- Control de cuentas (suspensión temporal, eliminación).
+- Sistema de invitaciones para amigos y grupos.
 
-### Non-Functional Requirements:
+---
 
-- User data and communications must be protected.
-- The system prevents duplicate usernames and email addresses when creating an account.
-- Account changes must be saved and applied instantly.
-- Multiple users can use the platform without causing it to crash.
+## 1. Requisitos
 
-## 2. User Stories
+### 1.1 Requisitos Funcionales
 
-- *As a new user, I want to be able to use my email to create a personal account in the app with a unique username and password.*
-- *As a user, I want to be able to communicate with other users through messages and calls while maintaining private conversations.*
-- *As a user, I want to create and delete public or private groups to chat with other users.*
-- *As a user, I want to send messages in a group or chat and have other people see them instantly and be able to reply to them.*
-- *As a user, I want to be able to join existing groups to participate in new conversations.*
-- *As a goup owner, I want to be able to add or remove other users from a group.*
-- *As a group owner, I want my groups to be manageable only by me or other users to whom I give permission.*
-- *As a user, I want a user-friendly and customizable interface so I can adjust it to my liking.*
-- *As a user, I want to temporarily close my account securely to protect it while I'm not using the app.*
-- *As a user, I want to delete my account permanently.*
+- Registro e inicio de sesión con correo y contraseña.
+- Enviar y recibir mensajes privados.
+- Realizar llamadas de video o voz.
+- Crear y eliminar grupos.
+- Personalizar cuenta (foto, nombre, estado).
+- Cerrar sesión de forma segura.
+- Eliminar cuenta permanentemente.
+
+### 1.2 Requisitos No Funcionales
+
+- Protección de datos y comunicaciones del usuario.
+- Evitar duplicados de nombres de usuario y correos.
+- Aplicación instantánea de cambios en la cuenta.
+- Soporte para múltiples usuarios sin fallos.
+
+---
+
+## 2. Historias de Usuario
+
+- *Como usuario nuevo, quiero crear una cuenta personal con email, usuario y contraseña únicos.*
+- *Como usuario, quiero comunicarme mediante mensajes y llamadas manteniendo privacidad.*
+- *Como usuario, deseo crear y eliminar grupos públicos o privados para chatear.*
+- *Como usuario, quiero enviar mensajes en grupos y que otros los vean y respondan al instante.*
+- *Como usuario, quiero unirme a grupos existentes para participar en conversaciones.*
+- *Como propietario de grupo, deseo añadir o eliminar usuarios del grupo.*
+- *Como propietario, quiero que solo yo o usuarios autorizados gestionen mi grupo.*
+- *Como usuario, quiero una interfaz amigable y personalizable.*
+- *Como usuario, quiero cerrar mi cuenta temporalmente de forma segura.*
+- *Como usuario, quiero eliminar mi cuenta de forma permanente.*
+
+---
 
 ## 3. Mockups
 
-Preliminary UI mockups were designed for:
-- Login page
-![Login Mockup](https://raw.githubusercontent.com/ValU020/Java-Project/main/Mock-Ups/Mockup1.jpg)
-- Home screen with contact list and groups.
+Mockups preliminares diseñados para:
+
+- **Página de inicio de sesión**  
+  ![Login Mockup](https://raw.githubusercontent.com/ValU020/Java-Project/main/Mock-Ups/Mockup1.jpg)
+
+- **Pantalla principal con lista de contactos y grupos**  
   ![Main Page Mockup](https://raw.githubusercontent.com/ValU020/Java-Project/main/Mock-Ups/Mockup2.jpg)
-- Profile interface.
-![Profile Mockup](https://raw.githubusercontent.com/ValU020/Java-Project/main/Mock-Ups/Mockup3.jpg)
-Mockups are provided as simple sketches and justify basic layout choices to support the user flow.
+
+- **Interfaz de perfil**  
+  ![Profile Mockup](https://raw.githubusercontent.com/ValU020/Java-Project/main/Mock-Ups/Mockup3.jpg)
+
+*Los mockups son bocetos simples que justifican las elecciones básicas de diseño para apoyar el flujo del usuario.*
+
+---
 
 ## 4. CRC Cards
 
-The main class is:
-**User**
-- **Responsibilities:** Register an log in, edit profile, add and remove contacts.
-- **Collaborators:** Contact list, message, calls.
+### Clase Principal
 
-The subclasses are:
+**User**  
+- **Responsabilidades:** Registrar e iniciar sesión, editar perfil, añadir y eliminar contactos.  
+- **Colaboradores:** Lista de contactos, mensajes, llamadas.
 
-**1. Contact**
-- **Responsibilities:** Represent another user the contact list, display contact name and status.
-- **Collaborators:** User.
-  
-**2. Call**
-- **Responsibilities:** Start a call between two or more users, tract duration and participants, end the call.
-- **Collaborators:** User, call history.
-  
-**3. Chat**
-- **Responsibilities:** Manage a conversation between two or more users, store a list of messages, display messages in order,  keep a log of past calls, display past conversartions.
-- **Collaborators** User, message.
+### Subclases
+
+**1. Contact**  
+- **Responsabilidades:** Representar otro usuario en la lista de contactos, mostrar nombre y estado.  
+- **Colaboradores:** User.
+
+**2. Call**  
+- **Responsabilidades:** Iniciar llamadas entre usuarios, registrar duración y participantes, finalizar llamada.  
+- **Colaboradores:** User, historial de llamadas.
+
+**3. Chat**  
+- **Responsabilidades:** Gestionar conversaciones entre usuarios, almacenar y mostrar mensajes, mantener historial de llamadas y conversaciones.  
+- **Colaboradores:** User, mensaje.
+
+---
 
 ## UML Diagram
-![UML Diagram](https://github.com/ValU020/Java-Project/blob/main/Workshop2/UML.png))
+
+![UML Diagram](https://github.com/ValU020/Java-Project/blob/main/Workshop2/UML.png)
+
